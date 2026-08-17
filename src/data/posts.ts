@@ -76,6 +76,21 @@ export const posts: Post[] = [
       'The goal is not to prove what TypeScript can do. It is to make the compiler catch the bugs your reviewers would otherwise have to.',
     ],
   },
+    {
+    id: 'building-better-dashboard-experiences',
+    title: 'Building Better Dashboard Experiences',
+    excerpt:
+      'Dashboards are not about showing everything. They are about helping people understand what deserves their attention.',
+    author: 'Ava Whitfield',
+    date: '2026-05-10',
+    category: 'Design',
+    readTime: '6 min read',
+    content: [
+      'A dashboard becomes useful when it answers questions before the user has to ask them. The goal is not to display every available metric, but to surface the information that helps someone make a decision.',
+      'Visual hierarchy matters more than the number of charts on the page. Start with the metrics that define success, then provide supporting information for users who need to investigate further.',
+      'Good dashboards also account for empty, loading, and error states. A polished dashboard is not just a collection of beautiful charts; it is an experience that remains understandable regardless of the underlying data.',
+    ],
+  },
 ];
 
 export function getPostById(id: string): Post | undefined {
