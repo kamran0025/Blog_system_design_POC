@@ -91,21 +91,21 @@ export const posts: Post[] = [
       'Good dashboards also account for empty, loading, and error states. A polished dashboard is not just a collection of beautiful charts; it is an experience that remains understandable regardless of the underlying data.',
     ],
   },
-  // {
-  //   id: 'the-art-of-code-review',
-  //   title: 'The Art of a Useful Code Review',
-  //   excerpt:
-  //     'Code reviews work best when they improve the code without turning into a battle over personal preferences.',
-  //   author: 'Daniel Brooks',
-  //   date: '2026-04-28',
-  //   category: 'Engineering',
-  //   readTime: '5 min read',
-  //   content: [
-  //     'A good code review is not a test of who knows more. It is a collaborative process for finding problems, sharing context, and making the code easier to maintain.',
-  //     'Focus comments on correctness, maintainability, performance, and consistency with established patterns. Avoid spending review time on subjective preferences that do not materially improve the code.',
-  //     'The best reviewers explain why something should change instead of simply pointing out that it is wrong. That small difference turns a review into a learning opportunity.',
-  //   ],
-  // },
+  {
+    id: 'the-art-of-code-review',
+    title: 'The Art of a Useful Code Review',
+    excerpt:
+      'Code reviews work best when they improve the code without turning into a battle over personal preferences.',
+    author: 'Daniel Brooks',
+    date: '2026-04-28',
+    category: 'Engineering',
+    readTime: '5 min read',
+    content: [
+      'A good code review is not a test of who knows more. It is a collaborative process for finding problems, sharing context, and making the code easier to maintain.',
+      'Focus comments on correctness, maintainability, performance, and consistency with established patterns. Avoid spending review time on subjective preferences that do not materially improve the code.',
+      'The best reviewers explain why something should change instead of simply pointing out that it is wrong. That small difference turns a review into a learning opportunity.',
+    ],
+  },
 ];
 
 export function getPostById(id: string): Post | undefined {
