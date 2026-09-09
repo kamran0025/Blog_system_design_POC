@@ -16,111 +16,111 @@ export const posts: Post[] = [
       'Start every design review by asking what you can remove, not what you can add. You will be surprised how often the answer improves the experience.',
     ],
   },
-  {
-    id: 'state-of-react-2026',
-    title: 'The State of React in 2026',
-    excerpt:
-      'Server components, the new compiler, and a look at where the ecosystem is heading this year.',
-    author: 'Marcus Chen',
-    date: '2026-07-15',
-    category: 'Engineering',
-    readTime: '8 min read',
-    content: [
-      'React has spent the last few years quietly rebuilding its foundations. The compiler removes an entire category of manual optimization, and server components blur the line between backend and frontend rendering in ways that used to require custom frameworks.',
-      'For teams building new products today, the calculus has shifted. You spend less time thinking about memoization and more time thinking about data boundaries: what should render on the server, what needs interactivity, and where the seams between them should live.',
-      'The ecosystem is still catching up in places, but the direction is clear: less boilerplate, fewer footguns, and a framework that increasingly gets out of your way.',
-    ],
-  },
-  {
-    id: 'writing-for-busy-readers',
-    title: 'Writing for Busy Readers',
-    excerpt:
-      'Most people skim before they read. Here is how to structure your writing so the skim is worth it.',
-    author: 'Priya Nair',
-    date: '2026-06-30',
-    category: 'Writing',
-    readTime: '4 min read',
-    content: [
-      'The average reader decides whether to keep reading within the first two sentences. That is not a reason to write worse — it is a reason to front-load your point.',
-      'Put your conclusion first. Use short paragraphs. Break up dense ideas with subheadings and lists. None of this dumbs down the content; it respects the reader\'s time enough to let them choose how deep to go.',
-      'The best technical and business writing reads like a pyramid: the tip is the takeaway, and each layer below adds detail for those who want it.',
-    ],
-  },
-  {
-    id: 'remote-team-rituals',
-    title: 'Small Rituals That Hold Remote Teams Together',
-    excerpt:
-      'It is not the tools that make distributed teams work. It is the habits they build around them.',
-    author: 'Jordan Reyes',
-    date: '2026-06-12',
-    category: 'Culture',
-    readTime: '6 min read',
-    content: [
-      'Every remote team eventually learns that Slack and video calls are necessary but not sufficient. What actually builds trust is repetition: the same stand-up format, the same weekly demo, the same way of closing out a project.',
-      'These rituals do not need to be elaborate. A five-minute Friday recap where everyone shares one win and one blocker does more for morale than a quarterly all-hands.',
-      'The teams that thrive remotely are the ones that treat culture as something to be designed deliberately, not something that happens on its own.',
-    ],
-  },
-  {
-    id: 'typescript-patterns-that-scale',
-    title: 'TypeScript Patterns That Actually Scale',
-    excerpt:
-      'A practical look at the type patterns worth adopting on a growing codebase, and the ones worth avoiding.',
-    author: 'Marcus Chen',
-    date: '2026-05-22',
-    category: 'Engineering',
-    readTime: '7 min read',
-    content: [
-      'TypeScript rewards restraint. The teams with the healthiest codebases are rarely the ones using the most advanced type-level features; they are the ones using the simplest types consistently.',
-      'Discriminated unions are worth their weight in gold for modeling state. Utility types like Pick and Omit keep your interfaces DRY without introducing abstraction for its own sake. Generics are powerful, but every generic parameter is a small tax on the next reader.',
-      'The goal is not to prove what TypeScript can do. It is to make the compiler catch the bugs your reviewers would otherwise have to.',
-    ],
-  },
-  {
-    id: 'building-better-dashboard-experiences',
-    title: 'Building Better Dashboard Experiences',
-    excerpt:
-      'Dashboards are not about showing everything. They are about helping people understand what deserves their attention.',
-    author: 'Ava Whitfield',
-    date: '2026-05-10',
-    category: 'Design',
-    readTime: '6 min read',
-    content: [
-      'A dashboard becomes useful when it answers questions before the user has to ask them. The goal is not to display every available metric, but to surface the information that helps someone make a decision.',
-      'Visual hierarchy matters more than the number of charts on the page. Start with the metrics that define success, then provide supporting information for users who need to investigate further.',
-      'Good dashboards also account for empty, loading, and error states. A polished dashboard is not just a collection of beautiful charts; it is an experience that remains understandable regardless of the underlying data.',
-    ],
-  },
-  {
-    id: 'the-art-of-code-review',
-    title: 'The Art of a Useful Code Review',
-    excerpt:
-      'Code reviews work best when they improve the code without turning into a battle over personal preferences.',
-    author: 'Daniel Brooks',
-    date: '2026-04-28',
-    category: 'Engineering',
-    readTime: '5 min read',
-    content: [
-      'A good code review is not a test of who knows more. It is a collaborative process for finding problems, sharing context, and making the code easier to maintain.',
-      'Focus comments on correctness, maintainability, performance, and consistency with established patterns. Avoid spending review time on subjective preferences that do not materially improve the code.',
-      'The best reviewers explain why something should change instead of simply pointing out that it is wrong. That small difference turns a review into a learning opportunity.',
-    ],
-  },
-  {
-    id: 'frontend-performance-mistakes',
-    title: 'Frontend Performance Mistakes We Keep Making',
-    excerpt:
-      'Most performance problems are not caused by one huge mistake. They come from small decisions repeated throughout an application.',
-    author: 'Marcus Chen',
-    date: '2026-04-15',
-    category: 'Engineering',
-    readTime: '8 min read',
-    content: [
-      'Frontend performance is often treated as something to optimize at the end of a project. By then, inefficient rendering patterns, oversized dependencies, and unnecessary network requests can already be deeply embedded in the application.',
-      'Start by measuring before optimizing. Look at bundle size, network waterfalls, rendering performance, and real-user metrics. A slow page should have a measurable reason for being slow.',
-      'Performance is also a product feature. Faster navigation, responsive interactions, and predictable loading states make an application feel more reliable even when the underlying functionality has not changed.',
-    ],
-  },
+  // {
+  //   id: 'state-of-react-2026',
+  //   title: 'The State of React in 2026',
+  //   excerpt:
+  //     'Server components, the new compiler, and a look at where the ecosystem is heading this year.',
+  //   author: 'Marcus Chen',
+  //   date: '2026-07-15',
+  //   category: 'Engineering',
+  //   readTime: '8 min read',
+  //   content: [
+  //     'React has spent the last few years quietly rebuilding its foundations. The compiler removes an entire category of manual optimization, and server components blur the line between backend and frontend rendering in ways that used to require custom frameworks.',
+  //     'For teams building new products today, the calculus has shifted. You spend less time thinking about memoization and more time thinking about data boundaries: what should render on the server, what needs interactivity, and where the seams between them should live.',
+  //     'The ecosystem is still catching up in places, but the direction is clear: less boilerplate, fewer footguns, and a framework that increasingly gets out of your way.',
+  //   ],
+  // },
+  // {
+  //   id: 'writing-for-busy-readers',
+  //   title: 'Writing for Busy Readers',
+  //   excerpt:
+  //     'Most people skim before they read. Here is how to structure your writing so the skim is worth it.',
+  //   author: 'Priya Nair',
+  //   date: '2026-06-30',
+  //   category: 'Writing',
+  //   readTime: '4 min read',
+  //   content: [
+  //     'The average reader decides whether to keep reading within the first two sentences. That is not a reason to write worse — it is a reason to front-load your point.',
+  //     'Put your conclusion first. Use short paragraphs. Break up dense ideas with subheadings and lists. None of this dumbs down the content; it respects the reader\'s time enough to let them choose how deep to go.',
+  //     'The best technical and business writing reads like a pyramid: the tip is the takeaway, and each layer below adds detail for those who want it.',
+  //   ],
+  // },
+  // {
+  //   id: 'remote-team-rituals',
+  //   title: 'Small Rituals That Hold Remote Teams Together',
+  //   excerpt:
+  //     'It is not the tools that make distributed teams work. It is the habits they build around them.',
+  //   author: 'Jordan Reyes',
+  //   date: '2026-06-12',
+  //   category: 'Culture',
+  //   readTime: '6 min read',
+  //   content: [
+  //     'Every remote team eventually learns that Slack and video calls are necessary but not sufficient. What actually builds trust is repetition: the same stand-up format, the same weekly demo, the same way of closing out a project.',
+  //     'These rituals do not need to be elaborate. A five-minute Friday recap where everyone shares one win and one blocker does more for morale than a quarterly all-hands.',
+  //     'The teams that thrive remotely are the ones that treat culture as something to be designed deliberately, not something that happens on its own.',
+  //   ],
+  // },
+  // {
+  //   id: 'typescript-patterns-that-scale',
+  //   title: 'TypeScript Patterns That Actually Scale',
+  //   excerpt:
+  //     'A practical look at the type patterns worth adopting on a growing codebase, and the ones worth avoiding.',
+  //   author: 'Marcus Chen',
+  //   date: '2026-05-22',
+  //   category: 'Engineering',
+  //   readTime: '7 min read',
+  //   content: [
+  //     'TypeScript rewards restraint. The teams with the healthiest codebases are rarely the ones using the most advanced type-level features; they are the ones using the simplest types consistently.',
+  //     'Discriminated unions are worth their weight in gold for modeling state. Utility types like Pick and Omit keep your interfaces DRY without introducing abstraction for its own sake. Generics are powerful, but every generic parameter is a small tax on the next reader.',
+  //     'The goal is not to prove what TypeScript can do. It is to make the compiler catch the bugs your reviewers would otherwise have to.',
+  //   ],
+  // },
+  // {
+  //   id: 'building-better-dashboard-experiences',
+  //   title: 'Building Better Dashboard Experiences',
+  //   excerpt:
+  //     'Dashboards are not about showing everything. They are about helping people understand what deserves their attention.',
+  //   author: 'Ava Whitfield',
+  //   date: '2026-05-10',
+  //   category: 'Design',
+  //   readTime: '6 min read',
+  //   content: [
+  //     'A dashboard becomes useful when it answers questions before the user has to ask them. The goal is not to display every available metric, but to surface the information that helps someone make a decision.',
+  //     'Visual hierarchy matters more than the number of charts on the page. Start with the metrics that define success, then provide supporting information for users who need to investigate further.',
+  //     'Good dashboards also account for empty, loading, and error states. A polished dashboard is not just a collection of beautiful charts; it is an experience that remains understandable regardless of the underlying data.',
+  //   ],
+  // },
+  // {
+  //   id: 'the-art-of-code-review',
+  //   title: 'The Art of a Useful Code Review',
+  //   excerpt:
+  //     'Code reviews work best when they improve the code without turning into a battle over personal preferences.',
+  //   author: 'Daniel Brooks',
+  //   date: '2026-04-28',
+  //   category: 'Engineering',
+  //   readTime: '5 min read',
+  //   content: [
+  //     'A good code review is not a test of who knows more. It is a collaborative process for finding problems, sharing context, and making the code easier to maintain.',
+  //     'Focus comments on correctness, maintainability, performance, and consistency with established patterns. Avoid spending review time on subjective preferences that do not materially improve the code.',
+  //     'The best reviewers explain why something should change instead of simply pointing out that it is wrong. That small difference turns a review into a learning opportunity.',
+  //   ],
+  // },
+  // {
+  //   id: 'frontend-performance-mistakes',
+  //   title: 'Frontend Performance Mistakes We Keep Making',
+  //   excerpt:
+  //     'Most performance problems are not caused by one huge mistake. They come from small decisions repeated throughout an application.',
+  //   author: 'Marcus Chen',
+  //   date: '2026-04-15',
+  //   category: 'Engineering',
+  //   readTime: '8 min read',
+  //   content: [
+  //     'Frontend performance is often treated as something to optimize at the end of a project. By then, inefficient rendering patterns, oversized dependencies, and unnecessary network requests can already be deeply embedded in the application.',
+  //     'Start by measuring before optimizing. Look at bundle size, network waterfalls, rendering performance, and real-user metrics. A slow page should have a measurable reason for being slow.',
+  //     'Performance is also a product feature. Faster navigation, responsive interactions, and predictable loading states make an application feel more reliable even when the underlying functionality has not changed.',
+  //   ],
+  // },
   // {
   //   id: 'when-to-build-a-design-system',
   //   title: 'When Should You Build a Design System?',
