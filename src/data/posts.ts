@@ -16,21 +16,21 @@ export const posts: Post[] = [
       'Start every design review by asking what you can remove, not what you can add. You will be surprised how often the answer improves the experience.',
     ],
   },
-  // {
-  //   id: 'state-of-react-2026',
-  //   title: 'The State of React in 2026',
-  //   excerpt:
-  //     'Server components, the new compiler, and a look at where the ecosystem is heading this year.',
-  //   author: 'Marcus Chen',
-  //   date: '2026-07-15',
-  //   category: 'Engineering',
-  //   readTime: '8 min read',
-  //   content: [
-  //     'React has spent the last few years quietly rebuilding its foundations. The compiler removes an entire category of manual optimization, and server components blur the line between backend and frontend rendering in ways that used to require custom frameworks.',
-  //     'For teams building new products today, the calculus has shifted. You spend less time thinking about memoization and more time thinking about data boundaries: what should render on the server, what needs interactivity, and where the seams between them should live.',
-  //     'The ecosystem is still catching up in places, but the direction is clear: less boilerplate, fewer footguns, and a framework that increasingly gets out of your way.',
-  //   ],
-  // },
+  {
+    id: 'state-of-react-2026',
+    title: 'The State of React in 2026',
+    excerpt:
+      'Server components, the new compiler, and a look at where the ecosystem is heading this year.',
+    author: 'Marcus Chen',
+    date: '2026-07-15',
+    category: 'Engineering',
+    readTime: '8 min read',
+    content: [
+      'React has spent the last few years quietly rebuilding its foundations. The compiler removes an entire category of manual optimization, and server components blur the line between backend and frontend rendering in ways that used to require custom frameworks.',
+      'For teams building new products today, the calculus has shifted. You spend less time thinking about memoization and more time thinking about data boundaries: what should render on the server, what needs interactivity, and where the seams between them should live.',
+      'The ecosystem is still catching up in places, but the direction is clear: less boilerplate, fewer footguns, and a framework that increasingly gets out of your way.',
+    ],
+  },
   // {
   //   id: 'writing-for-busy-readers',
   //   title: 'Writing for Busy Readers',
